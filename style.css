@@ -71,6 +71,7 @@
 .body {
   background: linear-gradient(white,#4160bb54);
     padding-bottom: 30px;
+    overflow:hidden;
 }
 .body_container{
     width: 80%;
