@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.clear_div{
+    clear: both;
+}
+.header{
+    width:100%;
+    background: #4160bb;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+.logo_area{
+    width: 30%;
+    float: left;
+    height: 61px;
+
+}
+.logo_area span{
+    color: white;
+    font-size: 50px;
+}
+.login_area{
+    width: 70%;
+    float: left;
+}
+.login_area .form{
+    float: right;
+}
+.email_area{
+    float: left;
+}
+.password_area{
+    float: left;
+}
+.password_area a{
+    color: white;
+    text-decoration: none;
+}
+.password_area a:hover{
+    text-decoration: underline;
+}
+.email_area, .password_area{
+    margin-right: 5px;
+}
+.email_area label, .password_area label{
+    display: block;
+    margin-bottom: 3px;
+    font-size: 14px;
+    color: white;
+    font-weight: 200;
+}
+.password_area input{
+    display: block;
+}
+.submit_button{
+    float: left;
+    margin-top: 18px;
+}
+.submit_button input{
+    padding: 2px 7px;
+}
+.body {
+  background: linear-gradient(white,#4160bb54);
+    padding-bottom: 30px;
+}
+.body_container{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.logo_side{
+    width: 55%;
+    height: 500px;
+    float: left;
+}
+.picture_title{
+    width: 100%;
+}
+.picture_title span{
+    font-size: 30px;
+    color: #4160bb;
+    font-weight: bold;
+}
+.picture_people{
+    width: 100%;
+    height: 300px;
+}
+.picture_people img{
+   width: 100%
+}
+
+.form_side{
+    width: 45%;
+    height: 500px;
+    float: left;
+    padding: 0px 40px;
+}
+.form_container .create_account{
+    width: 100%;
+    
+}
+.form_container .create_account span{
+    font-size: 40px;
+}
+.form_container .its_free span{
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+.create_account_form .first_name{
+    width: 48%;
+    float: left;
+    margin-right: 4%
+}
+.create_account_form .surename{
+    width: 48%;
+    float: left;
+}
+.create_account_form .first_name input,
+.create_account_form .surename input,
+.create_account_form .mobile_number input,
+.create_account_form .password input
+{
+    width: 100%;
+    padding: 12px 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    border: 1px solid #dfdfdf;
+}
+.create_account_form input::placeholder{
+    font-size: 15px
+}
+.create_account_form .first_surename,
+.create_account_form .mobile_number
+{
+    margin-bottom: 10px;
+}
+.birthday_text{
+    width: 100%;
+    margin-top: 10px;
+}
+.birthday_text span{
+    font-size: 20px;
+}
+.birthday_side{
+    width: 100%;
+    margin-top: 10px;
+}
+.birthday_select{
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+}
+.birthday_select select{
+    width: 50px;
+    height: 25px
+}
+.why_do_i{
+    width: 50%;
+    float: left;
+}
+.why_do_i span{
+    font-size: 14px
+}
+.gender_select{
+    width: 100%;
+}
+.gender_select .female, .gender_select .male{
+    width: 22%;
+    float: left;
+}
+.gender_select label{
+    font-size: 20px
+}
+.last_text{
+    width: 80%;
+    margin-top: 10px;
+}
+.last_text span{
+    font-size: 14px;
+}
+.signup_btn{
+    width: 100%;
+    margin-top: 10px
+}
+.signup_btn input{
+    padding: 5px 30px;
+    font-size: 20px;
+    background: green;
+    color: white;
+    border-radius: 10px;
+}
